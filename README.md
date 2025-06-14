@@ -260,14 +260,15 @@ endmodule
 ## File Organization
 
 ```
-tic-tac-toe-verilog/
+TicTacToe
 ├── src/
 │   ├── TCell.v           # Individual cell module
 │   └── TBox.v            # Main game controller
+|   └── blah              # Othe files (modules)
 ├── tb/
 │   ├── tb_TCell.v        # TCell testbench
 │   └── tb_TBox.v         # Complete game testbench
-└── README.md             # This documentation
+README.md             # This documentation
 ```
 Use the test benches available to test the modules.(You can download the test benches and add your own test cases!)
 
